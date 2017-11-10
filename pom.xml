@@ -4,6 +4,7 @@
   <artifactId>rabbit-hello-produce</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>rabbit-hello-produce</name>
+  <packaging>war</packaging>
   <description>Demo app for rabbit message procuder</description>
 
 	<properties>
@@ -46,6 +47,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.2.0</version>
+			  </plugin>
 		</plugins>
 	</build>
 
